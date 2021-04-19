@@ -1,0 +1,64 @@
+body {
+  background: url(https://image.freepik.com/free-vector/blue-squares-cloth-background_1053-299.jpg);
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  font-family: cursive, sans-serif;
+}
+
+h1 {
+  color: black;
+  font-size: 60px;
+  font-family: cursive, sans-serif;
+  font-weight: bolder;
+  text-align: center;
+}
+
+h2 {
+  color: black;
+  font-size: 45px;
+  font-family: cursive, sans-serif;
+  font-weight: bolder;
+  text-align: center;
+}
+header {
+  width: 960;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  align-self: center;
+  border-radius: 30px;
+}
+
+.col-4 {
+  -ms-flex: 0 0 33.333333%;
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+  background: white;
+  text-transform: capitalize;
+  font-size: large;
+  padding: 10px;
+  border-radius: 10%;
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px 5px rgba(5, 5, 5, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn {
+  cursor: pointer;
+  margin-bottom: 10px;
+  border: none;
+  height: 30%;
+  box-shadow: 3px 3px 3px 3px rgba(5, 5, 5, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: white;
+  font-weight: bolder;
+}
