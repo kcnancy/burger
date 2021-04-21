@@ -11,7 +11,7 @@ if (process.env.JAWSDB_URL) {
     password: "Time4change$",
     database: "burgers_db",
   });
-}
+};
 connection.connect();
 
 module.exports = connection;
