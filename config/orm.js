@@ -1,4 +1,4 @@
-const connection = require("./connection.js");
+const connection = require("./connection");
 
 const objToSql = (ob) => {
   const arr = [];
@@ -23,7 +23,7 @@ const printQuestionMarks = (num) => {
   return arr.toString();
 };
 
-// ORM or Object Relational Mapping
+//  Object Relational Mapping - ORM
 const orm = {
   all(tableInput, cb) {
     const queryString = `SELECT * FROM ${tableInput};`;
@@ -58,9 +58,9 @@ const orm = {
   update(table, objColVals, condition, cb) {
     let queryString = `UPDATE ${table}`;
 
-    queryString += " SET ";
+    queryString += "  SET ";
     queryString += objToSql(objColVals);
-    queryString += " WHERE ";
+    queryString += "  WHERE ";
     queryString += condition;
 
     console.log(queryString);

@@ -1,6 +1,6 @@
-var orm = require("../config/orm.js");
+var orm = require("../config/orm");
 //creates the object-relational mapping to the database
-const burgers = {
+const burger = {
   all(cb) {
     orm.all("burgers", (res) => cb(res));
   },
@@ -15,4 +15,4 @@ const burgers = {
   },
 };
 
-module.exports = burgers;
+module.exports = burger;
