@@ -48,7 +48,7 @@ npm run start
 This app allows the user to name a burger and submit it to the menu, once on the menu the user can 'eat' the burger by clicking the 'Eat it now' button. Once the burger is eaten it moves to the You ate it box and can be deleted from the screen if the delete button is clicked.
 
 
-![Screenshot](public\images\burgers.png)
+![Screenshot](public/images/burgers.png)
 
 ## Author
 
